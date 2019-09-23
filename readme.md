@@ -68,7 +68,7 @@ The access must be granted by owner providing a login and a private key.
 		$host = 'https://localhost/api/metrologie/salleb01';
 		$enable_ssl = true; //enabling SSL support
 		$enable_ssl_withoutcert = false; //enabling self signed certs
-		$cert = getcwd() . '/../cert/-ladromefr.crt'; //public key ladrome.fr
+		$cert = getcwd() . '/../cert/GlobalSignRootCA.crt'; //public key of Root CA.
 		
 		
 		/**************
