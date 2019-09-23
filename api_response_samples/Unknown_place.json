@@ -1,0 +1,25 @@
+{
+	"requester": {
+		"login": "user1",
+		"origin": "127.0.0.1"
+	},
+	"request": {
+		"status_code": 202,
+		"message": "Accepted",
+		"date": "2019-09-16T11:57:40+00:00"
+	},
+	"data": {
+		"place": "SalleB12",
+		"message": "place unknown"
+	},
+	"places": {
+		"0": "sallec01",
+		"1": "sallec02",
+		"2": "sallec03",
+		"3": "sallec04",
+		"4": "salleb01",
+		"5": "salleb02",
+		"6": "salleb03",
+		"7": "salleb04"
+	}
+}

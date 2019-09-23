@@ -1,0 +1,6 @@
+{
+	"request": {
+		"status_code": 401,
+		"message": "not authenticated"
+	}
+}
