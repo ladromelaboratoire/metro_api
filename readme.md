@@ -16,7 +16,8 @@ The calls are made using `GET` method following this schema:
 
 ### Responses
 All request get a proper HTTP status code :
-  - 	`200` OK, Data sent
+
+  -	`200` OK, Data sent
   -	`202` Place does not exist, places list included in the answer
   -	`401` Authentication failed
   -	`403` Authenticated but access forbidden to the requested method
