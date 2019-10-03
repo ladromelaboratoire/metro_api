@@ -3,8 +3,8 @@
 ## User section
 ### Purpose
 
-This is an HTTP REST API over SSL to get temparature and humidity accross various places of the laboratory
-The API check if user is granted for access and if the place exists.
+This is an HTTP REST API over SSL to get temparature and humidity accross various places of the laboratory.  
+The API checks if user is granted for access and if the place exists before providing any data.
 
 ### API calls
 
@@ -16,7 +16,7 @@ The calls are made using `GET` method following this schema:
 
 ### Responses
 All request get a proper HTTP status code :
-  - `200` OK, Data sent
+  - 	`200` OK, Data sent
   -	`202` Place does not exist, places list included in the answer
   -	`401` Authentication failed
   -	`403` Authenticated but access forbidden to the requested method
@@ -51,7 +51,7 @@ The access must be granted by owner providing a login and a private key.
 
 
 ### Testing
-2 ways to test the API : the included PHP script or [SoapUI](https://www.soapui.org/downloads/soapui.html) using the endpoint explorer.
+2 ways to test the API : the included PHP script or [SoapUI](https://www.soapui.org/downloads/soapui.html) using its endpoint explorer.
 
 ```php
 <?php
